@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Página Inicial | Trajes Para Homens</title>
+  <meta name="description" content="Loja especializada em trajes masculinos de alta qualidade">
+  
+ 
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Cabeçalho -->
+  <header class="site-header">
+    <div class="container">
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+      
+      <div class="logo">
+        <a href="/">Trajes Para Homens</a>
+      </div>
+      
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#">Coleções</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+      
+      <div class="header-actions">
+        <button class="btn-icon search-btn" aria-label="Buscar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button class="btn-icon cart-btn" aria-label="Carrinho">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M9 22C9.55228 22 10 21.5523 10 21C10 20.4477 9.55228 20 9 20C8.44772 20 8 20.4477 8 21C8 21.5523 8.44772 22 9 22Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M20 22C20.5523 22 21 21.5523 21 21C21 20.4477 20.5523 20 20 20C19.4477 20 19 20.4477 19 21C19 21.5523 19.4477 22 20 22Z" stroke="currentColor" stroke-width="2"/>
+            <path d="M1 1H5L7.68 14.39C7.77144 14.8504 8.02191 15.264 8.38755 15.5583C8.75318 15.8526 9.2107 16.009 9.68 16H19.4C19.8693 16.009 20.3268 15.8526 20.6925 15.5583C21.0581 15.264 21.3086 14.8504 21.4 14.39L23 6H6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="main-content">
+    <!-- Seção Hero -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Trajes Elegantes para Homens Brutos</h1>
+        <p>Descubra nossa coleção exclusiva de ternos e acessórios</p>
+        <a href="#" class="btn btn-primary">Ver Coleção</a>
+      </div>
+    </section>
+    
+    <!-- Seção de Destaques -->
+    <section class="featured-section">
+      <div class="container">
+        <h2 class="section-title">Coleções em Destaque</h2>
+        <div class="products-grid">
+         <ul>
+          <li>
+            <div class="product-card">
+              <img onclick="paginaRonnieColeman()" src="https://wallpapers.com/images/hd/ronnie-coleman-f937pr844gn7vh45.jpg" alt="Kit Ronnie Coleman">
+              <div class="product-info">
+                <h3>Kit Ronnie Coleman</h3>
+                <span class="price">R$ 2099,90</span>
+                <button class="btn btn-primary" onclick="paginaRonnieColeman()">Comprar</button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <img src="img/terno2.jpg" alt="Terno Casual">
+              <div class="product-info">
+                <h3>Terno Casual</h3>
+                <span class="price">R$ 499,90</span>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <img src="img/terno3.jpg" alt="Terno Social">
+              <div class="product-info">
+                <h3>Terno Social</h3>
+                <span class="price">R$ 699,90</span>
+                <button class="btn btn-primary">Comprar</button>
+              </div>
+            </div>
+          </li>
+         </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-col">
+          <h3>Sobre Nós</h3>
+          <p>Especialistas em trajes masculinos desde 2010.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Termos de Serviço</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; <span class="copyright-year">2025</span> Trajes Para Homens. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
